@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 déc. 2016, 11:55:20
+    Author     : ppailloux
+*/
+
+body {
+	background-color: rgba(255, 255, 255, 1);
+	font-family: 'family=Acme', sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	color:rgba(51, 51, 51, 1);
+	/*background: url("../images/fond.jpg") no-repeat;
+	background-size: cover;
+	background-position: fixed;*/
+
+}
+h1, h2, h3 {
+	margin:10px 0px;
+}
+h1 {
+	font-size:2.5em;
+}
+h2 {
+	font-size:2em;
+}
+h3 {
+	font-size:1.85em;
+}
+
+.global-container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.jumbotron {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.gallery-cell img{
+	width: auto;
+}
+.gallery {
+	height: 500px;
+}
+.flickity-viewport {
+	height: 500px !important;
+}
+.item {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+
+@media (max-width: 320px) {
+	.gallery {
+		height: 320px !important;
+	}
+	.flickity-viewport {
+		height: 320px !important;
+	}
+
+	.cell3{
+		left: 1054.52% !important;
+	}
+	.cell2{
+		left: 485.13% !important;
+	}
+	.cell1{
+		left: 3% !important;
+	}
+
+}
+/*
+@media (min-width: 768px) {
+	.cell3 img{
+		left: 1116.52%;
+	}
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+*/
