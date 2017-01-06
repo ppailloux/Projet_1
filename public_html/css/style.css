@@ -13,7 +13,7 @@ body {
 	font-family: 'family=Acme', sans-serif;
 	font-size:16px;
 	font-weight:normal;
-	color:rgba(51, 51, 51, 1);
+	color:rgba(255, 255, 255, 1);
 	background-image: url("../images/fond.jpg");
 	background-size: cover;
 	background-position: inherit;
